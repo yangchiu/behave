@@ -90,7 +90,7 @@ setup(
         "colorama >= 0.3.7",
     ],
     tests_require=[
-        "pytest <  5.0; python_version <  '3.0'", # >= 4.2
+        "pytest <7.2; python_version <  '3.0'", # >= 4.2
         "pytest >= 5.0; python_version >= '3.0'",
         "pytest-html >= 1.19.0,<2.0; python_version <  '3.0'",
         "pytest-html >= 2.0;         python_version >= '3.0'",
@@ -113,7 +113,7 @@ setup(
         ],
         "develop": [
             "coverage",
-            "pytest >=4.2,<5.0; python_version <  '3.0' # pytest >= 4.2",
+            "pytest >=7.1,<7.2; python_version <  '3.0' # pytest >= 4.2",
             "pytest >= 5.0; python_version >= '3.0'",
             "pytest-html >= 1.19.0,<2.0; python_version <  '3.0'",
             "pytest-html >= 2.0;         python_version >= '3.0'",
